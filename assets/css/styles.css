@@ -1,0 +1,109 @@
+* {margin: 0; padding: 0;}
+
+body {
+    margin: 0;
+    width: 90%;
+    background-color: white;
+    margin: 15px auto;
+    
+}
+
+header {
+    flex-basis: 10%;
+    height: 75px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0%;
+}
+
+#siteTitle {
+    margin: 0%;    
+    position: absolute;
+        top: 345px;
+        left: 425px;
+}
+
+.circle {
+    margin: 0;
+    position: absolute;
+    top: 150px;
+    left: 225px;
+    height: 490px;
+    width: 500px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+#subTitle {
+    margin: 0%;
+    position: absolute;
+    top: 375px;
+    left: 305px;
+}
+
+main {
+    margin: 2%;
+    padding: 2.5%;
+    width: 55%;
+    padding-top: 10px;
+    text-align: center;
+    height: 300px;
+    float: left;
+    
+}
+
+article {
+    margin: .5%;
+    padding: 170px;
+    margin-bottom: 40px;
+    padding-top: 125px;
+    margin-top: 1px;
+}
+
+form {
+    /*display: flex;*/
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-right: 1px;
+    margin: 5px;
+    }
+
+aside h3 {
+    margin: 0;
+    margin-left: 15px;
+
+}
+*#blogEntry {
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+footer {
+    flex-basis: 5%;
+    clear: both;
+    height: 75px;
+    border-top: 2px solid black;
+    border: 2px solid black;
+}
+
+#submitYourBlog {
+    text-indent: 10px;
+    margin-left: 15px;
+}
+
+#submit {
+    height: 75px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 180px;
+
+}
